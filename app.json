@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "SombraSP",
+    "slug": "sombrasp",
+    "version": "1.0.0",
+    "scheme": "sombrasp",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F2F2F7",
+    "primaryColor": "#C2410C",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.fiap3esph.sombrasp"
+    },
+    "android": {
+      "package": "br.com.fiap3esph.sombrasp",
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#C2410C"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#C2410C"
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O SombraSP usa a sua localização só para mostrar a distância até os pontos de sombra e água. Ela não é salva nem enviada."
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
