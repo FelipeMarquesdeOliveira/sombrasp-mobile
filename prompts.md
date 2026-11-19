@@ -10,6 +10,7 @@ A equipe usou IA durante o desenvolvimento. Este arquivo é o registro combinado
 | Criar o design system | Primeiro uma paleta "Sol do meio-dia". Depois, a pedido da equipe, o visual foi refeito no padrão do iPhone ("Clima"): abas nativas, títulos grandes, SF Symbols, listas agrupadas e vibração | `src/theme/`, `src/components/`, `app/guia-visual.tsx`, `docs/DESIGN_SYSTEM.md`, `scripts/gerar-icones.py` |
 | Escrever os testes | Regras do domínio, mock e contraste do tema | `src/**/__tests__` (76 testes) |
 | Rodar no simulador e documentar | Conferir a jornada, tirar os prints e escrever o README | `docs/prints/`, `README.md` |
+| Montar o vídeo da jornada | Gravar o app no simulador, escrever o roteiro e gerar a narração com voz sintetizada (pt-BR, edge-tts). A pronúncia foi conferida transcrevendo o áudio com o Whisper | Vídeo no YouTube (link no README) |
 
 ## Validação prática
 

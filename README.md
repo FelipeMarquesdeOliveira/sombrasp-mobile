@@ -39,16 +39,18 @@ O visual segue o padrão dos apps nativos do iPhone: barra de abas do sistema, t
 
 ## Vídeo (até 3 minutos)
 
-**Link (YouTube, não listado):** _a preencher_
+**Link (YouTube, não listado):** https://youtu.be/AEEa4JCiFsU
 
-O vídeo mostra a jornada completa:
+O vídeo (2 min) mostra a jornada completa:
 
 1. ver o alerta;
 2. achar um ponto e filtrar;
 3. abrir a ficha do ponto;
 4. salvar o ponto e registrar uma pausa;
 5. fechar e reabrir o app para mostrar que os dados voltam do banco;
-6. mostrar os estados de erro e vazio e o ajuste de letra.
+6. aumentar a letra, ver o estado de erro (falha de conexão) e os cenários de calor extremo e sem alerta.
+
+A gravação é do app rodando no simulador do iPhone. A narração usa voz sintetizada (detalhes em `prompts.md`).
 
 ## Jornada do cidadão
 
